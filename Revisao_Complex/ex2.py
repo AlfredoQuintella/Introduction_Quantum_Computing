@@ -10,7 +10,7 @@ def calcular_potencia_complexa(n):
     elif resto_modulo_4 == 3:
         return complex(0, -1) 
 
-n = int(input("Insira a potência desejada: "))
+n = int(input("Insira a potencia desejada: "))
 
 resultado = calcular_potencia_complexa(n)
 
